@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vitamin Labs</title>
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  </head>
+  <body data-hl="1">
+    <div class="root">
+      <header>
+        <h1 class="heading">
+          Vitamin Labs —
+        </h1>
+      </header>
+      <div class="content">
+        <p>
+          Building the digital reality with mathematics, cryptography and software.
+        </p>
+        <p>
+          We're currently working on a protocol that incentivizes IPFS pinning.
+        </p>
+        <iframe
+          width="486"
+          height="274"
+          src="https://www.youtube.com/embed/o9tDO3HK20Q?color=white&rel=0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <footer>
+        <a
+          href="#"
+          class="footer-link strikethrough"
+        >
+          Contact
+        </a>
+        <a
+          href="https://github.com/vitamin-labs"
+          class="footer-link"
+        >
+          Github
+        </a>
+        <a
+          href="https://bitcoin.org/bitcoin.pdf"
+          class="footer-link strikethrough"
+        >
+          Whitepaper
+        </a>
+        <a
+          href="#"
+          class="footer-link strikethrough"
+        >
+          Twitter
+        </a>
+      </footer>
+    </div>
+    <script>
+    window.addEventListener('click', () => {
+      document.body.setAttribute('data-hl', (parseInt(document.body.getAttribute('data-hl'), 10) + 1) % 7);
+    });
+    </script>
+  </body>
+</html>
